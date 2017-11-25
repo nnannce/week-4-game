@@ -18,7 +18,7 @@ var images = [
 
 randomResult = Math.floor(Math.random() * 99) + 20; 
 
-$("#result").html('Random Result: ' + randomResult);
+$("#result").html('--> ' + randomResult);
 
 for(var i=0; i<4; i++){
 

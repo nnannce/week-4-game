@@ -1,16 +1,42 @@
 .crystals{
 	display: flex;
 	justify-content: space-around;
-	
 	align-items: center;
 }
 
 .crystal{
-	border:10px solid pink;
+	border:5px solid #404040;
 	height: 200px;
 	width: 200px;
 }
 
 img{
 	width: 50px;
+}
+
+#result{
+	font-size: 55px;
+	color: teal;
+	text-align: center;
+	font-family: 'Bigelow Rules', cursive;
+}
+
+
+
+#instructions{
+	background-color: #eee;
+	
+	font-size: 15px;
+}
+
+
+#win, #loss, #previous{
+	font-size: 45px;
+	color: teal;
+	text-align: center;
+	font-family: 'Bigelow Rules', cursive;
+}
+
+h1{
+	text-align: center;
 }
